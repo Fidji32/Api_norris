@@ -1,0 +1,32 @@
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 0 auto;
+    font-size: 0.8rem;
+    margin-top: 20px;
+    border: solid 2px black;
+}
+
+th,
+td {
+    text-align: center;
+    border: solid 1px black;
+}
+
+th {
+    background-color: #F4F4F4;
+    border-bottom: 1px solid #E0E0E0;
+    text-transform: uppercase;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #F8F8F8;
+}
+
+tbody tr:hover {
+    background-color: #E0E0E0;
+}
+
+.fils {
+    display: block;
+}
